@@ -26,16 +26,15 @@
   font-size: 4em;
   color: #fff;
   padding: .75em 0;
-  display: inline-block;
   border-top: 3px solid #8BBCB6;
   border-bottom: 3px solid #8BBCB6;
 }
-/* line 37, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 36, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .deli-head h3 span {
   font-size: .5em;
   font-family: 'Droid Serif', serif;
 }
-/* line 43, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 42, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .deli-head .logo {
   width: 100%;
   height: 100%;
@@ -43,7 +42,7 @@
   display: block;
   background-size: 100%;
 }
-/* line 52, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 51, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .continue {
   width: 175px;
   height: 100px;
@@ -56,7 +55,7 @@
   bottom: 0;
   opacity: .5;
 }
-/* line 64, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 63, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .continue h4 {
   margin: 0;
   padding-top: 25px;
@@ -66,18 +65,18 @@
   font-size: 1.3em;
   text-transform: uppercase;
 }
-/* line 74, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 73, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .continue i {
   color: #fff;
   font-size: 20px;
   padding-top: 15px;
 }
-/* line 81, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 80, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 #slider-container .continue:hover {
   opacity: 1;
 }
 
-/* line 87, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+/* line 86, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
 .background {
   background: url("/assets/background.jpg");
   background-size: cover;
@@ -90,14 +89,15 @@
 }
 
 @media (max-width: 992px) {
-  /* line 103, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+  /* line 102, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
   #slider-container {
     overflow: hidden;
   }
-  /* line 108, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
+  /* line 107, /Users/Bryan/Desktop/projects/marlowsons/app/assets/stylesheets/main.scss */
   #slider-container .deli-head h3 {
-    margin-top: 1em;
-    font-size: 2.5em;
+    margin-top: 1.5em;
+    font-size: 2em;
+    line-height: 1.3em;
   }
 }
 /*
